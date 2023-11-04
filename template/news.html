@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Мой шаблон</title>
+</head>
+<body>
+    <h1>Мои данные</h1>
+    <ul>
+        {% for item in data %}
+            <li>{{ item.field_name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
